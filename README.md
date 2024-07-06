@@ -1,5 +1,7 @@
 # OpenKE
 SpherE: Expressive and Interpretable Knowledge Graph Embedding for Set Retrieval, SIGIR'2024
+
+https://arxiv.org/abs/2404.19130
 ## Environment Setup
 To run our code, you need to have a Python environment and a C++ environment. The Python version we used is 3.11. Some requirements are needed, such as pytorch, sklearn, tqdm, numpy. To run our code, one needs to compile the C++ files first
 ```
@@ -112,4 +114,26 @@ python codes/test_sshouse_retrieval.py --path dim_k_SSHousE_r_wn18rr_0 --model S
 After downloading our model weights, extract the compressed file. You should have a foler with two sub-folders: models and sskgemb. Please place all the files in the "model" directory into the "./checkpoint" directory of the working directory of this README. Then, you can directly run the --test commands, for example 
 ```
 python codes/test_sshouse_retrieval.py --path dim_k_SSHousE_r_FB15k-237_0 --model SSHousE_r
+```
+
+
+## Reference
+```
+@article{DBLP:journals/corr/abs-2404-19130,
+  author       = {Zihao Li and
+                  Yuyi Ao and
+                  Jingrui He},
+  title        = {SpherE: Expressive and Interpretable Knowledge Graph Embedding for
+                  Set Retrieval},
+  journal      = {CoRR},
+  volume       = {abs/2404.19130},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2404.19130},
+  doi          = {10.48550/ARXIV.2404.19130},
+  eprinttype    = {arXiv},
+  eprint       = {2404.19130},
+  timestamp    = {Mon, 27 May 2024 14:55:45 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2404-19130.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
