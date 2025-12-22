@@ -8,7 +8,7 @@ To run our code, you need to have a Python environment and a C++ environment. Th
 cd openke
 bash make.sh
 ```
-Our code builds on the [OpenKE](https://github.com/thunlp/OpenKE) public benchmark repository for Knowledge Graph Embedding. The weights of our trained models that generate the test data reported in the paper can be downloaded at https://drive.google.com/file/d/1KmMORNqsQdtx8XUa-iqZX_rOBB12A4je/view?usp=drive_link. In this README, SS means we embed the entities as spheres instead of vectors/points. SSRotatE is SpherE-2D, SSRotatE3D is SpherE-3D, and k-dimensional SSHousE-r is Sphere-kD
+Our code builds on the [OpenKE](https://github.com/thunlp/OpenKE) public benchmark repository for Knowledge Graph Embedding. The weights of our trained models that generate the test data reported in the paper can be downloaded at https://uofi.box.com/s/0jrko97gzg46ce614ukug34cgg95gl62. In this README, SS means we embed the entities as spheres instead of vectors/points. SSRotatE is SpherE-2D, SSRotatE3D is SpherE-3D, and k-dimensional SSHousE-r is Sphere-kD
 
 ## Command to train/test a SpherE model based on RotatE or RotatE 3D
 The first line is to train the model, and the second line is to test the model
